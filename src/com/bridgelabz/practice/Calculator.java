@@ -31,13 +31,18 @@ public class Calculator {
 //		long product = Utility.multiply(arr);		
 //		System.out.println("Product of "+count+" entered numbers is = "+product);
 		
-		System.out.println("enter 1st number for division");
-		int num1 = scanner.nextInt();
+//		System.out.println("enter 1st number for division");
+//		int num1 = scanner.nextInt();
+//		
+//		System.out.println("enter 2nd number for division");
+//		int num2 = scanner.nextInt();
+//		
+//		System.out.println("Division of entered numbers is "+Utility.divide(num1, num2));
 		
-		System.out.println("enter 2nd number for division");
-		int num2 = scanner.nextInt();
+		System.out.println("Enter name of user");
+		String name = scanner.nextLine();
+		System.out.println(Utility.greet(name));
 		
-		System.out.println("Division of entered numbers is "+Utility.divide(num1, num2));
 		scanner.close();
 	}
 }

@@ -33,4 +33,8 @@ public class Utility {
 		}
 		throw new ArithmeticException("Use a number other than 0 in the denominator");
 	}
+	
+	public static String greet(String name) {
+		return "Welcome back "+name;
+	}
 }
