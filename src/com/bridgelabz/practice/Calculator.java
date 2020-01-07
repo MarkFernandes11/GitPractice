@@ -13,7 +13,7 @@ public class Calculator {
 		int count = scanner.nextInt();
 		
 		while(count < 1) {
-			System.out.println("Enter a positive number");
+			System.out.println("Enter a positive whole number");
 			count = scanner.nextInt();
 		}
 		System.out.println("Entered count is "+count);
