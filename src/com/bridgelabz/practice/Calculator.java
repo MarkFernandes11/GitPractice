@@ -43,6 +43,14 @@ public class Calculator {
 		String name = scanner.nextLine();
 		System.out.println(Utility.greet(name));
 		
+		System.out.println("enter 1st number for mod");
+		int num1 = scanner.nextInt();
+		
+		System.out.println("enter 2nd number for mod");
+		int num2 = scanner.nextInt();
+		
+		System.out.println("Modulus of entered numbers is "+Utility.modulus(num1, num2));
+
 		scanner.close();
 	}
 }
