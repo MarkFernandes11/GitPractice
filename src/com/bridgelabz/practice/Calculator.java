@@ -31,13 +31,13 @@ public class Calculator {
 //		long product = Utility.multiply(arr);		
 //		System.out.println("Product of "+count+" entered numbers is = "+product);
 		
-		System.out.println("enter 1st number for division");
+		System.out.println("enter 1st number for mod");
 		int num1 = scanner.nextInt();
 		
-		System.out.println("enter 2nd number for division");
+		System.out.println("enter 2nd number for mod");
 		int num2 = scanner.nextInt();
 		
-		System.out.println("Division of entered numbers is "+Utility.divide(num1, num2));
+		System.out.println("Modulus of entered numbers is "+Utility.modulus(num1, num2));
 		scanner.close();
 	}
 }
