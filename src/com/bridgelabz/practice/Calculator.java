@@ -25,9 +25,12 @@ public class Calculator {
 			arr[i] = scanner.nextInt();
 		}
 		
-		int sum = Utility.add(arr);
-		
+		int sum = Utility.add(arr);		
 		System.out.println("Sum of "+count+" entered numbers is = "+sum);
+		
+//		long product = Utility.multiply(arr);		
+//		System.out.println("Product of "+count+" entered numbers is = "+product);
+		
 		scanner.close();
 	}
 }
