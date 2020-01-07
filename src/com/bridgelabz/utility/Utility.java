@@ -8,6 +8,7 @@ public class Utility {
 		for (int i = 0; i < numbers.length; i++) {
 			sum = sum + numbers[i];
 		}
+		System.out.println("Received sum is "+sum);
 		return sum;
 	}
 }
